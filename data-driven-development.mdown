@@ -1,0 +1,128 @@
+data driven development
+-----------------------
+
+huh? backup...
+
+tools
+  - analytics 
+  - onsite tracking
+  
+  - logs - holds information on how your people are using the site
+    - where are the errors?
+    - how people are using your site
+  - dashboards
+    - outliers and monitoring business as usual
+  - data science 
+  
+- technology
+
+practices
+  - continuous deployment ship it!
+    - feedback from users not from (just) tests
+  - spike and stabalize? maybe
+  - contextual testing, BDD kills your started?
+  - monitoring
+
+  - have something to make a decision against
+    - design 
+      personas, build them from data about people using your website, 
+    - KPI (barf) but extremely useful
+      - Value of a user
+      - Conversion rate?
+      - Earnings per click?
+    - allow you to know if you are getting better 
+    - allow you something to make a decision against
+  
+  - cheap test
+    - javascript hacking
+      lots of users not finding savings
+        add email phone / capture when this happens
+        100s of leader for the call center that convert at a much higher rate
+    
+"you cant have your own facts"
+  - similarly to googles approach we dont want people leading by opinion
+  - decisions need to be proven with data (ab split testing)
+  - take the opinion out deploy and test
+  
+
+---------------
+
+Michael Jones
+=============
+
+Data Driven Development
+-----------------------
+- "you cant have your own facts"
+- creating context for decisions
+
+Forward Internet Group
+----------------------
+- small flat teams or great T shaped people
+- small disposable, composable systems
+- experimentation 
+- contextual technology decision
+- contextual process decisions
+- profit :-)
+
+Rapid feedback from the market
+------------------------------
+- the nature of the project arbitrage allowed us instant feedback
+- Spike new ideas, test effect, stabilise or throw away
+- 16 Applications in 6 months
+
+uSwitch.com
+-----------
+- acquired 2010
+- Large website with high traffic demands
+- Established brand 
+- Decent Revenue
+
+Looking closer
+--------------
+- large, hierarchical, functional, incentivised teams
+- one large application
+- Value process, Teh Agile or ceremonial agile
+- CI + testing + other stuff = 3 hour releases
+- Story Tyrany
+- Process > Code
+
+Stagnant
+--------
+- Agile had failed
+- No innovation or experimentation
+- Falling behind
+
+Apply the same thinking
+-----------------------
+- Restructure 
+- Rewrite, small modular
+- Feedback from (data)
+
+Tools 
+-----
+- analytics 
+- logs 
+- onsite tracking
+- dashboards
+- data science
+
+And...
+------
+- Created a well structured app
+- Easy to build on
+- Deployable in seconds
+- Hosted in the clouds
+
+How we got there
+----------------
+
+Testing
+-------
+- Removed functional and integration tests
+- Tested in context
+
+Decision with data
+------------------
+- "You can't have your own facts"
+- 
+

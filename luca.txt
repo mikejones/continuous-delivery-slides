@@ -1,0 +1,293 @@
+structure
+
+intro
+
+context
+
+projects
+
+CD
+- the basics
+  - automation
+  - single delivery team
+- how we have evolved it
+  - includes different ways of getting things live
+    - javascript
+  - use feedback from user not tests
+    - strategy for doing this
+      - a/b testing
+      - canary test (take it a few steps further)
+  - monitoring
+    - current analytics too slow
+  - plain text communication
+  - http integration
+  
+  - focus on business value KPIs
+  - small applications
+
+Applying to uSwitch
+  - what is it?
+  - value in brand
+  - very profitable
+  - transient user base
+
+[uswitch architecture]
+Mirco services
+  - take out the important stuff and test it separately
+Automate
+  - puppet ec2
+  - 
+
+[monitoring architecture]
+- see the effect of changes as they happen
+- layer on the stuff not part of the app
+- describe feeds from lost of other places
+
+Log files help you understand your useres
+- How people use your site shows you if you are getting it right
+  - e.g. result table how many people are view all? where are they clicking
+  - capture more events 
+    - form analytics how long people send on fields
+    - do more people request help
+    
+Application Dashboards
+- analytics
+- bespoke [energy dashboard]
+  - good for BAU and finding outliers
+    
+Real Time
+- great to watch
+- interesting to alert on
+
+Replaced red/green build with +/- revenue impact
+
+Compare and contrast
+- security, limit exposure to changes
+- market needs to rapidly change
+
+
+
+
+Continuos Delivery
+
+Continuos delivery has allowed us to replace feedback from test with feedback with users (or the system). 
+
+Been doing continuous delivery for 3 years and didn't know we were doing it wrong until the book came out :P
+
+Continuos (Feedback?) 
+Developed an alternative to CD with testing, or then evolved it.
+
+We have an assumption that testing is there 
+
+We value feedback from users of the system over the feedback that testing gives. This has changed the processes (anarchy) and architectures (small composable) we use to build our systems and has lead to be able to focus on the business value
+
+- How 3 years of continuous delivery of simple, composable micro systems and a focus  monitoring and data has
+- allowed us to take continuous delivery a step few further.
+- changed why deploy applications
+
+To do this need to do the following
+1. Explain the forward culture to put things in context
+1. How we have been doing it and how we have made it work a bit of tech stuff
+1. Where we are hoping to take it
+
+ForwardTechnology
+- small, flat teams of T shaped people
+  - good people are key
+  - T shaped people keep your teams small
+- small, disposable, composable systems
+  - Unix like philosophy, do one thing and do it well
+- contextual technology decision
+  - yes we try new technology but small applicatoin has allowed us to choose something that is appropriate
+- contextual process decisions
+  - experienced in 
+- a focus on the bottom line
+  - understand the goals and targets of the business
+  - find effective measures of your success 
+- experimentation
+
+Not mentioned CD explicitly but its a natural outcome
+
+[pic of forwardtech]
+
+How does this manifested itself?
+  - examples of teams where we have used this
+
+Publishing
+- 3 devs, 5 startup, 9 months
+  - definition of T-shaped
+- 3 devs, 5 FAILED startups, 9 months
+- Learned
+  - to build applications and deploy applications very quickly 
+    - automate
+    - use of the cloud
+    - BDD didnt kill them as we dropped testing no obvious revenue did
+  - user feedback was key in shaping decisions
+  - use users for QA
+  
+[only so long you can keep failing]
+
+Search Agency
+- 6 Devs 9 months, 15 applications
+  - (ownership, context, experiment, t-shaped, micro apps, continuous delivery)
+- a simple problem, arbitrage internet traffic
+- complexity in creating the competitive advantage from technical innovation and scale
+- tight feedback looping coming straight away from profit / loss
+- automate and monitor 
+
+[picture of carls wall]
+
+Continuous Delivery
+- [describe what it is in the book]
+
+
+- Common and important tied the two together
+  - focus automation required is really important 
+  - mindset
+    - best practices in dev, infrascturuce
+  
+-  Weren't doing it by the book as it wasn't written then :-)
+  - Value
+    - Fast repeatable deployments 
+    - feedback from system being used not tests
+    - achieve a competitive advantage
+    - push features live very quickly
+  - One team
+    - we were all dev ops
+    - able to control and own the infrastructure
+    
+  Things that allowed this to be possible
+  - teams working closely to the business 
+    - understand what the KPIs
+    - use tech to solve business problems not scratch an itch
+      - we are making more money not
+        - playing with tech
+        - delivering stores
+  - micro apps architecture
+    - easy to control
+    - limited impact
+  - simple solutions
+  - plain text communication / http integration
+    - format
+    - url api
+    - website, don't have to be MS fast
+
+Aggh you may say
+- 2 contexts where not testing was ok
+  - startup, users get fed up meh
+  - small relatively uncomplicated systems
+- This wouldnt work on XXX
+  - to some extent right but... 
+
+uSwitch
+- Acquired 2010
+- Established brand in the UK
+- Excellent revenue and profit
+
+Seemed a match but willingness accept the experimental exposure didnt match their business
+- protect the brand!!
+- 100% uptime!!
+
+Resulted in control 
+- Ceremonial Agile
+- Story Tyranny
+- large, hierarchical, functional, incentivised teams
+- Value process over code
+- CI + testing + other stuff = 3/4 hour releases]
+- Way too frustrating 
+
+We had bought them :-)
+[papa lazaru]
+
+Lots of alternatives to the service
+- need to maintain #1 position
+- need to be as effective as possible reduce CPA
+  - try new ideas quickly and cheaply
+  - can never hope to understand the system
+  http://www.ted.com/talks/tim_harford.html
+- CD was key to this
+ - time to deployment
+ 
+Rebuild
+- small apps
+Restructure
+- small teams
+Relocate
+- ec2
+
+Continuous Feedback
+- dashboards on behaviour 
+
+Short loop
+- javascript experiments
+  - e.g. results table checked with JS to see if there they couldnt save any money then a box popped up
+- as little testing as possible to get the site live
+  - turns out thats none *
+  - * micro systems responsibility pushed to other buts that are tested separately (not cowboys honest)
+
+- Underestimated 
+  - team differences
+  - the negative impact to the brand
+- Didn't want to go back to the same ways of doing things
+  - no one wanted cucumber / browser testing
+  - essential to keep tight feedback loop to maintain progress
+  - improve confidence
+
+Monitoring 
+- Current analytics way too slow 
+  e.g. google analytics can take up to 24 hours before you understand the effect you had
+- Real time
+  - logging
+    - in the plex steven levy: logs to understand the system 
+    - e.g. 4xx 5xx
+      - have they increased from a deploy?
+    - e.g.nginx proxy logging node tail -> 0MQ -> Aggregator -> 0MQ -> ESPER -> socket.io -> web page
+  - Why not extend this?
+    - model how people use the application
+      - is reacting from a deployment differently?
+      - is it reacting significantly differently?
+  - Control how much traffic is routed through it at the DNS level
+  
+
+
+
+Trends
+- data science
+- statistics
+- computer science
+- hacking with javascript
+
+Continuous Delivery
+- way to achieve delivery
+- mindset of development
+- simple, repeatable deployment
+- CI -> rep
+- specific feature on one box and test that
+
+
+Continuous Feedback
+  - tiny feedback loop
+    - push QA to the user
+      - visible new features for the user
+      - fix errors very quickly 
+      - roll foward
+    - push UI testing to the user
+      - find ways to make 
+    
+Things that allowed this to be possible
+- teams working close to the business 
+  - understand what the KPIs
+  - use tech to solve business problems not scratch an itch
+- micro apps architecture
+  - easy to control
+  - limited impact
+- plain text communication / http integration
+  - format
+  - url api
+  - website, don't have to be MS fast
+
+How do you know if the changes you have made been effective?
+- profit? KPIs
+
+Google in the Plex
+- looking at logs to see how people are using the site
+

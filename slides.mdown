@@ -1,0 +1,86 @@
+"How small, composable systems and a focus on data allowed us to introduce continuous delivery and maintain quality."
+
+
+Current methodolgies mean as web applications they become harder to change as things take longer to deploy 
+Real time monitoring allows for continous devilvery
+
+Being able to deploy twice a day isnt
+Integrating into production is better than continually integrating
+Measure and understand how people use the product (for) 
+
+Context
+  - Forward Internet Group
+  - small, flat teams of T shaped people
+  - small, disposable, composable systems
+  - experimentation 
+  - contextual technology decision
+  - contextual process decisions
+
+Search Agency
+  - went from a small, high preforming team working on small systems around a simple arbitrage problem
+  - feedback comes straight away from profit / loss
+  - complexity in creating the competitive advantage from technical innovation and scale
+  
+uSwitch 
+  - 2010
+  - Established brand in the UK
+  - Good revenue and profit (25M)
+
+  Process
+    - Ceremonial Agile
+    - large, hierarchical, functional, incentivised teams
+
+  Technically
+    - one large application
+    - Value process over code
+    - Story Tyranny
+    - CI + testing + other stuff = 3/4 hour releases
+    
+    Didnt solve the problem wiill 
+    
+Wanted to work the same way
+  - spike and stabilise
+    - Dan North (roots)
+    - tech to move fast (ruby, rails, javascript)
+  - Contextual testing
+    - BDD wont just kill your startup
+  - continuous deployment
+    - value data from users over tests
+  - Monitoring
+    - gather as much data as possible
+    
+euntrpaneureal about the produce
+experiment
+quick releases
+
+Apply the same thinking
+  - Restructure 
+     - small modular
+  - Relocation
+    - the cloud 
+  - Visible Feedback from (data)
+    - dashboard of contextual information
+    
+Trust is gained from the application being:
+  - available
+  - performant
+  - progress
+  - profitable
+  
+Something missing
+  - confidence in deploying
+  
+Trust is lost from 
+  - downtime
+  - unnoticed errors (javascript)
+  - drop in conversion
+  
+
+  
+
+
+
+
+  
+
+
