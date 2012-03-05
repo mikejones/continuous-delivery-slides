@@ -2,8 +2,6 @@
 
 @michael_jones
 ==============
-[http://michaeljon.es](michaeljon.es)
--------------------------------------
 
 !SLIDE
 
@@ -14,27 +12,18 @@ Continuous Delivery
 
 3 Years of Continuous Delivery
 ==============================
-<!-- - or 3 years of Continuous Delivery without testing *
-
-<small>* there is some testing</small> -->
-
-!SLIDE
-
-Overview
-========
 - Forward culture
-- What continuous delivery is to us
-- How continuous delivery is effecting us
+- What it means to us
+- How it is effecting how we work
 
 !SLIDE
 
 Forward
 =================
-- T shaped people
+- "T shaped" people
 - Just enough process
 - Experimentation
 - Developer focus on KPIs
-
 
 !SLIDE
 
@@ -49,12 +38,11 @@ Continuous Delivery
 
 !SLIDE
 
-How do we do this? 
-==================
-- Automate everything
+What it means to us 
+===================
+- Automating everything
 - Single delivery team
-- Keep the feedback loop to minutes
-- Push test to users Testing
+- Reduced feedback loop
 - Monitoring and logging
 - Roll forward
 
@@ -64,16 +52,16 @@ Effects Continuous Delivery
 ===========================
 - Architectural
 - Process
-- Company
+- Company 
 
 !SLIDE
 
 Architectural Changes
 =====================
 - Small, composable, disposable systems
-- Prefer not to create binaries
 - Plain text communication
 - HTTP integration
+- Prefer not to create binaries
 
 !SLIDE
 
@@ -83,23 +71,14 @@ Architectural Changes
 
 Process Changes
 ===============
-- Keep the feedback loop to minutes
-  - Current analytics too slow
+- Less testing
 - Prefer feedback from users than tests
-- Monitoring and Log everything
-  - Helped us understand how people use the site
-  - Shows you if you are getting it right
-- Dashboards visualising KPIs 
+- Monitoring and Log replaced CI
+- Dashboards visualising KPIs
 
 !SLIDE
 
 ![Energy Dashboard](./images/energy_dashboard.png "Energy Dashboard")
-
-!SLIDE
-
-"Companies mirror their architecture" 
-===================================
-Dan North
 
 !SLIDE
 
@@ -117,8 +96,9 @@ Dan North
 
 Future
 ======
-- Log more
 - Model user interaction with applications
+- User interaction as a stream
+- Log more
 
 !SLIDE
 
@@ -128,16 +108,8 @@ Future
 
 Summary
 =======
-- Limit deployment impact
+- Limit the impact of deployment
 - Reduce feedback loop
 - Monitoring and logging is key
-- Focus on business outcomes not development ones
-
-!SLIDE
-
-Questions?
-==========
-
-
-  
+- Focus on business outcomes
 
